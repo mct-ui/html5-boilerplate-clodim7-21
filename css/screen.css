@@ -80,7 +80,9 @@ p, ol, ul, dl, table, address, figure {
 
 ul, ol, blockquote {}
 
-li ul, li ol {}
+li ul, li ol {
+    margin-bottom: 0
+}
 
 blockquote {
     font-style: italic;
@@ -102,7 +104,12 @@ figcaption {
     color: Grey
 }
 
-hr {}
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
+}
 
 a {}
 
