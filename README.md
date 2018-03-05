@@ -1,2 +1,8 @@
-# Create 2 labo start files
-Dit zijn de startfiles voor de labo's van Create 2 van NMCT. In deze module gaan we een HTML/CSS boilerplate maken. Die kan je dan bijhouden voor alle toekomstige webprojecten. Verander de readme zodat het duidelijk is dat dit jouw boilerplate is.
+# Create 2 labo start files clodim7
+Html5 boiler plate
+fast
+robust
+adaptable
+
+to build web & app
+blbababbababababab
