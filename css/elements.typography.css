@@ -3,15 +3,24 @@
     ---
     Default markup for typographic elements
 */
-h1 {}
 
-h2 {}
+h1 {
 
-h3 {}
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
 
 h4,
 h5,
-h6 {}
+h6 {
+
+}
 
 p,
 ol,
@@ -19,25 +28,43 @@ ul,
 dl,
 table,
 address,
-figure {}
+figure {
+
+}
 
 ul,
 ol,
-blockquote {}
+blockquote {
+
+}
 
 li ul,
-li ol {}
+li ol{
 
-blockquote {}
+}
 
-figcaption {}
+blockquote {
 
-hr {}
+}
 
-a {}
+figcaption {
+
+}
+
+hr {
+
+}
+
+a {
+
+}
 
 a:hover,
-a:focus {}
+a:focus {
+
+}
 
 a:visited,
-a:active {}
+a:active {
+    
+}
