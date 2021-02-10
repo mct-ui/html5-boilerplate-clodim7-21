@@ -3,7 +3,13 @@
     ---
     Default markup for page level elements
 */
-html {}
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -11,6 +17,13 @@ html {}
  *
  * Customize the background color to match your design.
  */
-::-moz-selection {}
+::-moz-selection {
+    background: #44c8F5;
+    color: white;
+}
 
-::selection {}
+::selection {
+    background: #44c8F5;
+    color: white;
+}
+body{min-width: 42em;margin: 0 auto;}
