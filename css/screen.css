@@ -3,16 +3,21 @@
     ---
     Default markup for page level elements
 */
-
 html {
+
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #111;
     padding: 24px 24px 0;
+<<<<<<< HEAD
     font-family: serif;
 
 }
+=======
+>>>>>>> c033a07ebeec23793dff512610e32b51f365068c
 
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -20,32 +25,27 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
-    background: #000;
-    background: #e85e00;
+    background: #44c8f5;
     color: white;
-    text-shadow: none;
 }
 
 ::selection {
-    background: #e85e00;
+    background: #44c8f5;
     color: white;
-    text-shadow: none
 }
 
+body {
+    max-width: 42em;
+    /*ik ga dat niet vergeten het verwijst naar de root font-size van onze html element (nu nog 16px) en dus hoe breed is dat nu: 16*42=672px*/
 
-/*
-    Elements: Images
-    ---
-    Default markup for images to make them responsive
-*/
+    margin: 0 auto;
+}
 
 img {
     max-width: 100%;
     vertical-align: top;
 }
-
 
 /*
     Elements: typography
@@ -56,8 +56,10 @@ img {
 h1 {
     font-family: "Times New Roman", serif;
     font-size: 36px;
+    font-weight: normal;
     line-height: 40px;
     margin: 0 0 48px;
+<<<<<<< HEAD
 
 }
 
@@ -65,21 +67,17 @@ h2 {
     font-size: 23px;
     line-height: 32px;
     margin: 0 0 48px;
+=======
+>>>>>>> c033a07ebeec23793dff512610e32b51f365068c
 }
 
-h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 48px;
-}
+h2 {}
+
+h3 {}
 
 h4,
 h5,
-h6 {
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0 0 48px;
-}
+h6 {}
 
 p,
 ol,
@@ -87,47 +85,20 @@ ul,
 dl,
 table,
 address,
-figure {
-    margin: 0 0 48px;
-}
+figure {}
 
 ul,
 ol,
-blockquote {
-    padding-left: 24px;
-}
+blockquote {}
 
 li ul,
-li ol {
-    margin-bottom: 0;
-}
+li ol {}
 
-blockquote {
-    font-style: italic;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
-}
+blockquote {}
 
-blockquote * {
-    font-size: inherit;
-    line-height: inherit;
-}
+figcaption {}
 
-figcaption {
-    font-size: 12px;
-    line-height: 16px;
-    padding-top: 8px;
-    color: Grey;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    color: LightGrey;
-    margin: 0 0 24px;
-}
+hr {}
 
 a {}
 
@@ -135,6 +106,7 @@ a:hover,
 a:focus {}
 
 a:visited,
+<<<<<<< HEAD
 a:active {}
 
 
@@ -333,3 +305,6 @@ a:active {}
         page-break-after: avoid;
     }
 }
+=======
+a:active {}
+>>>>>>> c033a07ebeec23793dff512610e32b51f365068c
