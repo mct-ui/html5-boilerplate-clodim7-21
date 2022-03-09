@@ -53,6 +53,7 @@ h1 {
     font-weight: normal;
     line-height: 40px;
     margin: 0 0 48px;
+    vertical-align: top;
 }
 
 h2 {}
